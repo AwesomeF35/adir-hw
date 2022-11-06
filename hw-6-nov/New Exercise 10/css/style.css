@@ -1,0 +1,7 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.each-dog{
+border: 2px solid red;
+}
