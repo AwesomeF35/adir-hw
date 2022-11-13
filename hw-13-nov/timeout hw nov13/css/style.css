@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.keypad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keypad{
+    background-color: black;
+    display: grid;
+    width: 500px;
+    height: 750px;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.key{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.key > span{
+   text-align: center;
+    font-size: 30px;
+}
+
+.key:hover{
+    background-color: aquamarine;
+}
